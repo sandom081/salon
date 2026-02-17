@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegance Salon | Unisex Beauty Salon in Nerul, Navi Mumbai</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">
+  <a href="/">Elegance Salon</a>
+</h2>
+  <nav id="nav">
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu" id="menu">☰</div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg bg1"></div>
+  <div class="hero-bg bg2"></div>
+
+  <div class="hero-text">
+    <h1>Elegance Beauty Studio</h1>
+    <p>Where beauty meets perfection</p>
+    <a href="#appointment" class="btn">Book Appointment</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services reveal">
+  <h2>Our Services</h2>
+  <p class="section-sub">Premium care. Professional results.</p>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <span class="icon">💇‍♀️</span>
+      <h3>Hair Styling</h3>
+      <p>Haircuts, smoothening, coloring & styling by experts.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">✨</span>
+      <h3>Facial & Skin</h3>
+      <p>Glow treatments using premium skin products.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">💄</span>
+      <h3>Makeup</h3>
+      <p>Party, event & professional makeup services.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">👰</span>
+      <h3>Bridal Package</h3>
+      <p>Complete bridal beauty care for your big day.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why reveal">
+  <h2>Why Choose Us</h2>
+  <p class="section-sub">Because your beauty deserves expert care.</p>
+
+  <div class="why-grid">
+
+    <div class="why-card">
+      <span class="why-icon">⏳</span>
+      <h3>10+ Years Experience</h3>
+      <p>Serving clients with trusted expertise and consistent quality.</p>
+    </div>
+
+    <div class="why-card">
+      <span class="why-icon">🎓</span>
+      <h3>Certified Experts</h3>
+      <p>Professionally trained stylists and beauty specialists.</p>
+    </div>
+
+    <div class="why-card">
+      <span class="why-icon">🧴</span>
+      <h3>Premium Products</h3>
+      <p>Only branded, skin-safe and tested beauty products.</p>
+    </div>
+
+    <div class="why-card">
+      <span class="why-icon">🧼</span>
+      <h3>Hygienic Care</h3>
+      <p>Clean tools, sanitized space and safety-first practices.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery reveal">
+  <h2>Our Work</h2>
+  <p class="section-sub">Real results. Real confidence.</p>
+
+  <div class="gallery-grid">
+    <img src="images/h2.jpeg" alt="Salon work">
+    <img src="images/h3.png" alt="Salon work">
+    <img src="images/h4.jpeg" alt="Salon work">
+    <img src="images/h2.jpeg" alt="Salon work">
+    <img src="images/h5.png" alt="Salon work">
+    <img src="images/h6.jpeg" alt="Salon work">
+  </div>
+</section>
+
+<!-- IMAGE MODAL -->
+<div class="modal" id="imgModal">
+  <span class="close">&times;</span>
+  <img class="modal-img" id="modalImg">
+</div>
+
+<!-- APPOINTMENT -->
+<section id="appointment" class="appointment reveal">
+  <h2>Book Appointment</h2>
+  <form id="appointmentForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <select required>
+      <option value="">Select Service</option>
+      <option>Hair</option>
+      <option>Facial</option>
+      <option>Makeup</option>
+      <option>Bridal</option>
+    </select>
+    <input type="date" required>
+    <button type="submit" class="btn">Confirm Booking</button>
+   <br>
+   <br>
+    <p id="success"></p>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact" class="footer">
+  <div class="footer-grid">
+
+    <div class="footer-col">
+      <h3>Glow Studio</h3>
+      <p>Premium unisex beauty salon offering professional care and elegant results.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>📍 Nerul, Navi Mumbai</p>
+      <p>📞 +91 9XXXXXXXXX</p>
+      <p>⏰ 10:00 AM – 9:00 PM</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#appointment">Book Appointment</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Glow Studio. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
